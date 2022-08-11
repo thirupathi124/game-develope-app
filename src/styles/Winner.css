@@ -1,0 +1,21 @@
+.card{
+  
+    box-shadow: 0px 0px 6px black;
+    width: 100px;
+    height: auto;
+    margin: 10px 0px 40px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgs{
+    width: 100px;
+    height: 200px;
+}
+h5{
+    padding: 10px 0px 10px 0px;
+}
