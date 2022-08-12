@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/game-develope-app/static/css/main.f95fc080.css",
+    "main.js": "/game-develope-app/static/js/main.55e5d174.js",
+    "static/js/787.28cb0dcd.chunk.js": "/game-develope-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/card.jpg": "/game-develope-app/static/media/card.515214e1b0c2ecc2bb15.jpg",
+    "index.html": "/game-develope-app/index.html",
+    "main.f95fc080.css.map": "/game-develope-app/static/css/main.f95fc080.css.map",
+    "main.55e5d174.js.map": "/game-develope-app/static/js/main.55e5d174.js.map",
+    "787.28cb0dcd.chunk.js.map": "/game-develope-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95fc080.css",
+    "static/js/main.55e5d174.js"
+  ]
+}
