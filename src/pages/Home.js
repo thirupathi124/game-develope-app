@@ -26,7 +26,7 @@ function Footer(){
                     <ul>
                         <li className="red">{item.live}</li>
                     </ul>
-                    <p>|||</p>
+                    <p>{item.time}</p>
                 </div>
                 <h3 className="center-cont">{item.name}</h3>
                 <div className="one-bottom">
