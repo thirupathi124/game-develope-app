@@ -27,7 +27,7 @@ const tournamentData = [
     },
     {
         date : "12/08/2022",
-        name : "Wenesday Special",
+        name : "Wenesday",
         price : "₹2 Lakhs",
         live :"",
         link:"/wedday"
@@ -51,7 +51,7 @@ const tournamentData = [
       },
       {
         date : "12/08/2022",
-        name : "Saterday Santaclas",
+        name : "Saterday San",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
         link:"/saterday"
