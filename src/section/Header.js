@@ -7,9 +7,9 @@ function Header() {
     return (
         <div>
             <div className="bottom">
-                <Link to="/Footer">home</Link>
-                <Link to="winner">Winner</Link>
-                <h3>telegarm</h3>
+                <Link to="/Home">home</Link>
+                <Link to="/winner">Winner</Link>
+                <Link to="/mems">telegarm</Link>
 
             </div>
         </div>    
