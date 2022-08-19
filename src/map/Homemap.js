@@ -5,36 +5,38 @@
 //Home page data
 const tournamentData = [
     {
-      date : "12/08/2022",
+      date : "12-09-2022",
       name : "Sunday Party",
+      upcome :"Upcomeing",
       price : "₹2 Lakhs",
-      live :"Review",
+      live :"8am to 12pm",
       link :"/sunday"
     },
     {
-      date : "12/08/2022",
+      date : "12-09-2022",
       name : "Moday Special",
+      upcome :"Upcomeing",
       price : "₹2 Lakhs",
       live :" 8 am to 10am",
       link :"/monday"
     },
     {
-        date : "12/08/2022",
+        date : "12-09-2022",
         name : "Thousday Star",
-        price : "₹10000 Ten Thousand",
-        live :" 8 am to 10am",
+        price : "₹10000",
+        live :"8am to 10am",
         link:"/theusday"
     },
     {
-        date : "12/08/2022",
+        date : "12-09-2022",
         name : "Wenesday",
         price : "₹2 Lakhs",
-        live :"",
+        live :"8am to 12pm",
         link:"/wedday"
 
       },
       {
-        date : "12/08/2022",
+        date : "12-09-2022",
         name : "Thusday Masla",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
@@ -42,7 +44,7 @@ const tournamentData = [
 
       },
       {
-        date : "12/08/2022",
+        date : "12/08-2022",
         name : "Freedom friday",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
@@ -50,7 +52,7 @@ const tournamentData = [
 
       },
       {
-        date : "12/08/2022",
+        date : "12-08-2022",
         name : "Saterday San",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
@@ -66,15 +68,16 @@ const tournamentData = [
 const sunday = [
  {
     totalprice : "₹10000 TenThousand",
-    pay : "pay ₹10",
+    pay : "₹10",
     spots : "0 spots left",
     left : "1000 spots",
-    value : "49",
+    value : "70",
     firstprice : "(1st) ₹5000",
     percentage : "24%",
     live :"Live"
 
   },
+
 ]
 
 

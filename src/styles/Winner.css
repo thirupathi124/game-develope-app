@@ -1,4 +1,6 @@
 /* @import url("https//cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -6,23 +8,47 @@
     list-style: none;
 }
 .contest{
+   
+    background: black;
+    color: white;
+    padding: 25npmpx 20px 10px 20px;
+    
+}
+.contests{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: black;
+    padding:10px;
+
+}
+.start{
+    text-align: center;
+    padding: 10px;
     color: white;
-    padding: 20px;
+    
 }
 .sunday-gap{
     padding-right: 5px;
 }
 .party{
-    padding-bottom: 10px;
+    text-transform: uppercase;
 }
 .sun-contest{
-    background: whitesmoke;
-    box-shadow: 0px 0px 8px black;
-    padding: 20px 0px 20px 20px;
+    /* background: whitesmoke; */
+    /* box-shadow: 0px 0px 8px black; */
+    padding: 10px 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.pool{
+    font-size: 18px;
+    font-weight: 600;
+}
+.only{
+    background: linear-gradient(to left, whitesmoke,white);
+    box-shadow: 0px 0px 6px rgb(83, 82, 82);
+
+    padding: 10px;
 }
 .contest-card{
     box-shadow: 0px 0px 6px black;
@@ -45,29 +71,28 @@
     color: red;
     position: relative;
 }
-.live::before{
-    content: "";
-    position: absolute;
-    top: 3px;
-    right: 70px;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    background: red;
-}
 .pay{
     border: none;
     outline: none;
     background: green;
     border-radius: 5px;
-    padding: 10px;
+    padding: 3px 20px 3px 20px;
     cursor: pointer;
     color: white;
     font-size: 13px;
 }
-.player-progress{
- 
+progress{
     width:100%;
+    background: grey;
+    height: 5px;
+    border-radius: 10px;
+}
+progress::-webkit-progress-value{
+    background:linear-gradient(to right,orange,rgb(240, 36, 36));
+    border-radius: 10px;
+
+    
+    
 }
 .players{
     display: flex;
@@ -85,4 +110,14 @@
 .first-price{
     display: flex;
     gap: 20px;
+    align-items: center;
+
+}
+.back-arrow{
+    color: white;
+}
+.mark{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }

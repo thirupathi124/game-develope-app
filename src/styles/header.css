@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +8,42 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background:black;
+    text-align: center;
+}
+.me{
+    display: flex;
+    align-items: center;
+    padding:9px 20px 9px 20px;
+    justify-content: space-between;
+
+}
+
+.trophy{
+    display: flex;
+    align-items: center;
+    gap:5px;
+  
+}
+.menu{
+    color: green;
+    font-size: 30px;
 }
 .top-title{
-    background:#009d4d;
-    text-align: center;
+   
     color: white;
-    padding: 20px;
-    font-family: sans-serifs;
-  
+    /* padding: 20px 5px 20px 20px; */
+    font-family: Oswald;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 9px black;
 }
 
 
@@ -23,14 +53,40 @@
 
 /*footer */
 .bottom{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,120px);
+    padding-left: 35px;
+    justify-content: space-between;
+     color:black;
+   
+   
+}
+.icon-nav{
+    display: grid;
+    grid-template-columns: repeat(3,125px);
+    padding-left: 40px;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.homes:hover{
+    color: red;
+
+}
+.footer{
     background: whitesmoke;
     color: white;
+    z-index: 9999;
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 20px;
+    padding: 0px 10px 10px 10px;
     box-shadow: 0px 0px 9px rgb(94, 88, 88);
+}
+.home{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.home:hover{
+    color: gray;
 }

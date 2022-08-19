@@ -1,51 +1,64 @@
 import React from "react";
 import "../styles/Winner.css";
 import{sunday} from "../map/Homemap";
-
+import {Link} from "react-router-dom";
 
 function Sunday(){
 
     return(
         <div className="sunday-match">
             <div className="contest">
-               <div>
-                <p>|||</p>
-               </div>
+            <div className="contests">
+               <Link className="back-arrow" to="/home">
+                <i style={{fontSize:"25px"}} className="bi-arrow-left"/>
+               </Link>
                <div className="sunday-gap">
-                <h3 className="party">Sunday Party</h3>
-                <p>registration start 12 am to 4pm</p>
+                <p className="party">  -- sunday party --</p>
+              
                 </div>
+                
                 <div>
-                <p>(1st)</p>
-                <h4>₹10000</h4>
+                <i style={{color:"gold",paddingLeft:"15px"}} className="bi-trophy-fill"/>
+                <p style={{color:"gold"}}>₹10000</p>
                 </div>
-            </div> 
-            <h2 className="sun-contest">contest</h2>
+                
+            </div>
+            <p className="start">Registration Start 12am to 12pm</p>
+            </div>
+            <p className="only">Only one contest make win 99% chance</p> 
+            <p className="sun-contest">Contest</p>
+           
             {sunday.map((item,index) => (
             <div className="contest-card">
                 <div className="contest-top">
                     <p>Price Pool</p>
                     
-                        <h4 className="live">{item.live}</h4>
+                        <p className="live">{item.live}</p>
                     
                     <p>Entry</p>
                 </div>
                 <div className="contest-prize">
-                    <h4>{item.totalprice}</h4>
+                    <p className="pool">{item.totalprice}</p>
                     <button className="pay">{item.pay}</button>
                 </div>
                 <progress className="player-progress" value={item.value} max={100}></progress>
                 <div className="players">
-                    <h3 className="total-player">{item.spots}</h3>
-                    <h3 className="spots">{item.left}</h3>
+                    <p className="total-player">{item.spots}</p>
+                    <p className="spots">{item.left}</p>
                  
                 </div>
                 <div className="contest-bottom">
                     <div className="first-price">
-                    <h4>{item.firstprice}</h4>
-                    <h4>{item.percentage}</h4>
+                    <p className="sunprice">{item.firstprice}</p>
+                    
+                    <i className="bi-trophy"/>
+                    <p>{item.percentage}</p>
                     </div>
-                    <h4>Garanteed</h4>
+                    <div className="mark">
+                    <i class="bi-check-circle-fill" style={{color:"green"}} role="img" aria-label="GitHub"></i>
+
+                    <p>Garanteed</p>
+                 </div>
                 </div>
             </div>
             ))}

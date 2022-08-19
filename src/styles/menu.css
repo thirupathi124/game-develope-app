@@ -1,0 +1,47 @@
+.create-ad {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70%;
+    max-width: 772px;
+    height: 100%;
+    background-color:whitesmoke;
+    z-index: 9999;
+    transform: translateX(-100%);
+    transition: 0.4s;
+  }
+  
+  .show-create-menu .create-ad {
+    transform: translateX(0);
+  }
+  
+  .ad-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+  }
+  
+  .show-create-menu .ad-overlay {
+    display: block;
+  }
+  .menu-top{
+    background: black;
+    width: 100%;
+    height: 100px;
+ }
+ .menu-title{
+    padding: 20px;
+    color: white;
+ }
+ .boot{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    
+ }
