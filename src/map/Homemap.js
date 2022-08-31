@@ -10,29 +10,43 @@ const tournamentData = [
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
       live :"8am to 12pm",
-      link :"/sunday"
-    },
-    {
+      link :"/sunday",
+     },
+    
+     {
       date : "12-09-2022",
       name : "Moday Special",
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
       live :" 8 am to 10am",
-      link :"/monday"
+      link :"/sunday",
+      alert:function(){
+        return alert ("some value")
+      }
+     //link :"/monday"
     },
     {
         date : "12-09-2022",
         name : "Thousday Star",
         price : "₹10000",
         live :"8am to 10am",
-        link:"/theusday"
+        link:"",
+        // link:"/theusday",
+        alert:function(){
+          return alert ("some value")
+        }
     },
+
     {
         date : "12-09-2022",
         name : "Wenesday",
         price : "₹2 Lakhs",
         live :"8am to 12pm",
-        link:"/wedday"
+        link:"",
+        // link:"/wedday",
+        alert:function(){
+          return alert ("some value")
+        }
 
       },
       {
@@ -40,7 +54,12 @@ const tournamentData = [
         name : "Thusday Masla",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
-        link:"/thusday"
+        link:"",
+
+        // link:"/thusday",
+        alert:function(){
+          return alert ("some value")
+        }
 
       },
       {
@@ -48,7 +67,11 @@ const tournamentData = [
         name : "Freedom friday",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
-        link:"/friday"
+        link:"",
+        // link:"/friday",
+        alert:function(){
+          return alert ("some value")
+        }
 
       },
       {
@@ -56,153 +79,43 @@ const tournamentData = [
         name : "Saterday San",
         price : "₹2 Lakhs",
         live :" 8 am to 10am",
-        link:"/saterday"
-
+        link:"",
+        // link:"/saterday"
+        alert:function(){
+          return alert ("some value")
+        }
       }
    
 
 ]
+
+//Registaration start:
+
+const registration = [
+  {
+    starttime :"12pm to 3pm"
+  }
+]
+
+
+
 
 //sunday contes
 
 const sunday = [
  {
     totalprice : "₹10000 TenThousand",
-    pay : "₹10",
+    pay : "₹0",
     spots : "0 spots left",
     left : "1000 spots",
     value : "70",
     firstprice : "(1st) ₹5000",
     percentage : "24%",
-    live :"Live"
+    live :""
 
   },
 
 ]
 
+export {registration,sunday,tournamentData}
 
-//monday contest data
-
-const monday = [
-  {
-    title : "Monday Speical",
-    time : "12 am to 3pm",
-    price : "₹4999",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹10",
-    spots : "0 spots left",
-    left : "1000 spots",
-    value : "49",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-
-]
-
-
-//day-3 contest data
-
-const Theus = [
-  {
-    title : "Theusdays Speical",
-    time : "12 am to 3pm",
-    price : "₹499",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹30",
-    spots : "0 spots left",
-    left : "100 spots",
-    value : "49",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-
-]
-
-
-//day - 4 contest data
-
-const wednesday = [
-  {
-    title : "Wednesday lottery",
-    time : "12 am to 3pm",
-    price : "₹3000",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹30",
-    spots : "0 spots left",
-    left : "100 spots",
-    value : "0",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-
-]
-
-//day - 5 contest data
-
-const thusday = [
-  {
-    title : "thusday loot",
-    time : "12 am to 3pm",
-    price : "₹3000",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹30",
-    spots : "0 spots left",
-    left : "100 spots",
-    value : "0",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-
-]
-
-//day - 6 contest data
-
-const friday = [
-  {
-    title : "Friday freedom loot",
-    time : "12 am to 3pm",
-    price : "₹3000",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹30",
-    spots : "0 spots left",
-    left : "100 spots",
-    value : "0",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-]
-
-//saterday day -7 
-
-const saterday = [
-  {
-    title : "Saterday Classic",
-    time : "12 am to 3pm",
-    price : "₹3000",
-    totalprice : "₹10000 TenThousand",
-    pay : "pay ₹30",
-    spots : "0 spots left",
-    left : "100 spots",
-    value : "0",
-    firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :"Upcome"
-
-  },
-
-
-]
-console.log(monday)
-export {Theus,monday,sunday,tournamentData,wednesday,thusday,friday,saterday}
-
-console.log(friday)

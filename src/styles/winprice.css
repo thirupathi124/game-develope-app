@@ -1,0 +1,19 @@
+
+th,
+td{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+tr{
+    width: 100%;
+}
+table,th,td{
+    border-bottom:1px solid rgb(75, 69, 69);
+    border-collapse: collapse;
+}
+.rank{
+    padding-right: 240px;
+}
+
+
+

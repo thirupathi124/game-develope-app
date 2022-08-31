@@ -50,11 +50,15 @@
 
     padding: 10px;
 }
-.contest-card{
+.contest-des{
     box-shadow: 0px 0px 6px black;
     padding: 10px 20px 10px 20px;
     margin: 30px 10px 0px 10px;
     border-radius: 5px;
+}
+.contest-card{
+text-decoration: none;
+color: black;
 }
 .contest-top{
     display: flex;
@@ -80,6 +84,21 @@
     cursor: pointer;
     color: white;
     font-size: 13px;
+    text-decoration: none;
+}
+.pay-len{
+    border: none;
+    outline: none;
+    background: green;
+    border-radius: 5px;
+    padding: 14px 20px 14px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
 }
 progress{
     width:100%;
@@ -121,3 +140,27 @@ progress::-webkit-progress-value{
     gap: 10px;
     align-items: center;
 }
+.search-icon{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #033f2e;
+}
+.search{
+    font-size: 20px;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    width: 270px;
+    background-color: #033f2e;
+    padding-left: 20px;
+
+
+
+}
+.player{
+    padding: 20px;
+}
+
+

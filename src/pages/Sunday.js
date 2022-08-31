@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/Winner.css";
-import{sunday} from "../map/Homemap";
+import{registration, sunday} from "../map/Homemap";
 import {Link} from "react-router-dom";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 
 function Sunday(){
-
     return(
         <div className="sunday-match">
-            <div className="contest">
+         <div className="contest">
             <div className="contests">
                <Link className="back-arrow" to="/home">
                 <i style={{fontSize:"25px"}} className="bi-arrow-left"/>
@@ -23,13 +24,14 @@ function Sunday(){
                 </div>
                 
             </div>
-            <p className="start">Registration Start 12am to 12pm</p>
+            
+            <p className="start">Registration Start {registration[0]?.starttime}</p>
             </div>
             <p className="only">Only one contest make win 99% chance</p> 
             <p className="sun-contest">Contest</p>
-           
+           <div className="contest-des"> 
             {sunday.map((item,index) => (
-            <div className="contest-card">
+            <Link to="/leader" key={index} className="contest-card">
                 <div className="contest-top">
                     <p>Price Pool</p>
                     
@@ -39,7 +41,7 @@ function Sunday(){
                 </div>
                 <div className="contest-prize">
                     <p className="pool">{item.totalprice}</p>
-                    <button className="pay">{item.pay}</button>
+                    <Link to="/home" className="pay">{item.pay}</Link>
                 </div>
                 <progress className="player-progress" value={item.value} max={100}></progress>
                 <div className="players">
@@ -60,8 +62,9 @@ function Sunday(){
                     <p>Garanteed</p>
                  </div>
                 </div>
-            </div>
+            </Link>
             ))}
+            </div>
          </div>
 
     )

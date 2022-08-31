@@ -1,0 +1,36 @@
+const leaddata = [
+    {
+        name:"thiru",
+    },
+    {
+        name:"pahti",
+    },
+    {
+        name:"rock",
+    },
+    {
+        name:"brock",
+    },
+    {
+        name:"leasner",
+    },
+    {
+        name:"venkt",
+    },
+    {
+        name:"pricy"
+    },
+    {
+        name:"mani"
+    },
+    {
+        name:"master"
+    },
+    {
+        name:"palani"
+    },
+    {
+        name:"rocky"
+    }
+]
+export {leaddata}

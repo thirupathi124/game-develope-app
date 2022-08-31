@@ -1,0 +1,7 @@
+.board{
+    margin: 10px;
+}
+.win{
+    display: flex;
+    gap:40px;
+}
