@@ -19,7 +19,7 @@ const tournamentData = [
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
       live :" 8 am to 10am",
-      link :"/sunday",
+      link :"",
       alert:function(){
         return alert ("some value")
       }
@@ -93,7 +93,8 @@ const tournamentData = [
 
 const registration = [
   {
-    starttime :"12pm to 3pm"
+    tourname:"Sunday Party",
+    starttime :"12 pm to 3 pm"
   }
 ]
 
@@ -104,14 +105,14 @@ const registration = [
 
 const sunday = [
  {
-    totalprice : "₹10000 TenThousand",
-    pay : "₹0",
+    totalprice : "₹5000 FiveThousand",
+    pay : "₹5",
     spots : "0 spots left",
     left : "1000 spots",
-    value : "70",
+    value : "0",
     firstprice : "(1st) ₹5000",
-    percentage : "24%",
-    live :""
+    percentage : "99%",
+    live :"Review"
 
   },
 

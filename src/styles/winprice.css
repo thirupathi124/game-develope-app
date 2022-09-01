@@ -1,19 +1,32 @@
 
-th,
-td{
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-}
-tr{
-    width: 100%;
+table{
+    margin-bottom: 100px;
 }
 table,th,td{
-    border-bottom:1px solid rgb(75, 69, 69);
+    border-bottom:1px solid rgb(197, 191, 191);
     border-collapse: collapse;
+    color: black;
+    font-weight: 600;
+    width: -webkit-fill-available;
+    padding: 10px 10px 10px 10px;
+
 }
 .rank{
     padding-right: 240px;
 }
-
+.css-19kzrtu{
+    padding: 0!important
+}
+.tab-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.won{
+    color: green;
+}
+.all-player{
+    padding-right: 200px;
+}
 
 

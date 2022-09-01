@@ -15,21 +15,25 @@ export default function LeaderData(){
                    onChange={(e)=> setSearch(e.target.value)}
                    />
                    </div>
-            <p className="player">All players(23,24,4333)</p>
             {leaddata.length !==0 ? 
             <table>
                 
                 <thead>
                 <tr>
-                    <th >Name</th>
-                    
+                    <th style={{opacity:"0.6"}} className="all-player">All Players</th>
+                    <th style={{opacity:"0.6"}}>Rank</th>
                 </tr>
                 </thead>
                 <tbody>
 
               {leaddata.filter((item) => item.name.toLocaleLowerCase().includes(search)).map((item,index) =>(
                 <tr>
-                    <td>{item.name}</td>
+                    <td className="tab-icon">
+                        <div><i className="bi-person-circle" style={{fontSize:"25px",color:"gray"}}/></div>
+                        {item.name}
+                       <div className="won">{item.won}</div>
+                        </td>
+                        <td>{item.rank}</td>
                 </tr>
                 ))}
               

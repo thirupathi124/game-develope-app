@@ -54,7 +54,7 @@ function Leader(){
       <div className="sunday-match">
          <div className="contest">
             <div className="contests">
-               <Link className="back-arrow" to="/home">
+               <Link className="back-arrow" to="/sunday">
                 <i style={{fontSize:"25px"}} className="bi-arrow-left"/>
                </Link>
                <div className="sunday-gap">
@@ -69,9 +69,10 @@ function Leader(){
                     </div>
                     </div>
                 </div>
- <div className="board">
+ <div className="join">
 {sunday.map((item,index) => (
     <div key={index} className="contest-card">
+        <div className="margin">
         <div className="contest-top">
             <p>Price Pool</p>
             
@@ -86,9 +87,9 @@ function Leader(){
             <p className="spots">{item.left}</p>
          
         </div>
-        <Link to="/home" className="pay-len"> { item.pay}</Link>
-
-        <div className="contest-bottom">
+        <Link to="" className="pay-len">JOIN {item.pay}</Link>
+         </div>
+        <div className="contest-bottom bg">
             <div className="first-price">
             <p className="sunprice">{item.firstprice}</p>
             
@@ -105,16 +106,15 @@ function Leader(){
     ))}
     </div>
 
-    <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs 
-         TabIndicatorProps={{style: {background:"red"}}}
-        indicatorColor="primary"
-        value={value} 
-        onChange={handleChange} 
-        aria-label="basic tabs example">
-          <Tab style={{textTransform:"none",fontSize:"17px"}} label="Winner" {...a11yProps(0)} />
-          <Tab style={{textTransform:"none",fontSize:"17px"}} label="LeaderBoard" {...a11yProps(1)} />
+         TabIndicatorProps={{style: {background:"red",height:"3px"}}}
+         value={value} 
+         textColor="black"
+         onChange={handleChange} 
+         aria-label="basic tabs example">
+          <Tab style={{textTransform:"none",fontSize:"17px",fontFamily:"serif"}} label="Winnnings" {...a11yProps(0)} />
+          <Tab style={{textTransform:"none",fontSize:"17px",fontFamily:"serif"}} label="Leaderboard" {...a11yProps(1)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
@@ -124,7 +124,7 @@ function Leader(){
            <LData/>
       </TabPanel>
       
-    </Box>
+   
     </>
             
     )

@@ -14,7 +14,7 @@ function Sunday(){
                 <i style={{fontSize:"25px"}} className="bi-arrow-left"/>
                </Link>
                <div className="sunday-gap">
-                <p className="party">  -- sunday party --</p>
+                <p className="party">{registration[0].tourname}</p>
               
                 </div>
                 

@@ -8,14 +8,14 @@ export default function Winner(){
             <table>
                 <thead>
                 <tr>
-                    <th className="rank">Rank</th>
-                    <th>Winnings</th>
+                    <th style={{opacity:"0.5"}} className="rank">Rank</th>
+                    <th style={{opacity:"0.5"}}>Winnings</th>
                 </tr>
                 </thead>
                 <tbody>
               {rankwin.map((item,index) =>(
                 <tr>
-                    <td>{item.rank}</td>
+                    <td>#{item.rank}</td>
                     <td>{item.win}</td>
                 </tr>
                 ))}

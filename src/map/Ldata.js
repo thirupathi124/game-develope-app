@@ -1,36 +1,34 @@
 const leaddata = [
     {
-        name:"thiru",
-    },
-    {
-        name:"pahti",
-    },
-    {
+        id:"1",
         name:"rock",
+        won:"",
+        rank:"-"
     },
     {
-        name:"brock",
+        id:"2",
+        name:"tdsfdsfdsu",
+        won:"",
+        rank:"-"
     },
     {
-        name:"leasner",
+        id:"3",
+        name:"pathi",
+        won:"",
+        rank:"-"
     },
     {
-        name:"venkt",
+        id:"4",
+        name:"mani",
+        won:"",
+        rank:"-"
     },
     {
-        name:"pricy"
+        id:"5",
+        name:"palani",
+        won:"",
+        rank:"-"
     },
-    {
-        name:"mani"
-    },
-    {
-        name:"master"
-    },
-    {
-        name:"palani"
-    },
-    {
-        name:"rocky"
-    }
+   
 ]
 export {leaddata}
