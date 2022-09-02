@@ -6,10 +6,11 @@ table,th,td{
     border-bottom:1px solid rgb(197, 191, 191);
     border-collapse: collapse;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     width: -webkit-fill-available;
     padding: 10px 10px 10px 10px;
-
+    font-family: "Poppins";
+    font-size: 16px;
 }
 .rank{
     padding-right: 240px;

@@ -87,7 +87,7 @@ function Leader(){
             <p className="spots">{item.left}</p>
          
         </div>
-        <Link to="" className="pay-len">JOIN {item.pay}</Link>
+        <Link to="https://onedrive.live.com/edit.aspx?resid=43CCC83CA9553AD0!349&ithint=file%2cdocx&wdOrigin=OFFICECOM-WEB.MAIN.MRU" className="pay-len">JOIN {item.pay}</Link>
          </div>
         <div className="contest-bottom bg">
             <div className="first-price">
@@ -113,8 +113,8 @@ function Leader(){
          textColor="black"
          onChange={handleChange} 
          aria-label="basic tabs example">
-          <Tab style={{textTransform:"none",fontSize:"17px",fontFamily:"serif"}} label="Winnnings" {...a11yProps(0)} />
-          <Tab style={{textTransform:"none",fontSize:"17px",fontFamily:"serif"}} label="Leaderboard" {...a11yProps(1)} />
+          <Tab style={{textTransform:"none",fontSize:"16px"}} label="Winnnings" {...a11yProps(0)} />
+          <Tab style={{textTransform:"none",fontSize:"16px"}} label="Leaderboard" {...a11yProps(1)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>

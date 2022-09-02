@@ -11,20 +11,20 @@ function Homerender(){
             <div key={index} className="card-one">
                 <div  className="one-top">
                 <div>
-                <i className="bi-calendar-check-fill" style={{color:"black",fontSize:"20px",paddingBottom:"5px"}}/>
+                <i className="bi-calendar-check-fill" style={{color:"black",paddingBottom:"5px"}}/>
                 <span className="date">{item.date}</span>
                  </div>   
                     <div className="alarm">
                         <i className="bi-alarm-fill" />
-                        <li>{item.live}</li>
+                        <p>{item.time}</p>
                     </div>
-                    <p>{item.time}</p>
                 </div>
                 <div className="starting">
                 <p className="center-cont">{item.name}</p>
-                <p className="red">Upcomeing</p>                
+                <li className="red">{item.upcome}</li>                
               
                 </div>
+                <div className="bot-style">
                 <div className="one-bottom">
                     <div className="left">
                         <button className="mega">MEGA</button>
@@ -35,6 +35,7 @@ function Homerender(){
 
                     <div>Graduated</div>
                     </div>
+                </div>
                 </div>
             </div>
             </Link>

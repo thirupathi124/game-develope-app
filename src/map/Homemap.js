@@ -1,15 +1,12 @@
+import {Alert} from "@mui/material"
 
-
-
-
-//Home page data
-const tournamentData = [
+ const tournamentData = [
     {
       date : "12-09-2022",
       name : "Sunday Party",
-      upcome :"Upcomeing",
+      upcome :"Completed",
       price : "₹2 Lakhs",
-      live :"8am to 12pm",
+      time :"8am to 12pm",
       link :"/sunday",
      },
     
@@ -18,10 +15,10 @@ const tournamentData = [
       name : "Moday Special",
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
-      live :" 8 am to 10am",
+      time :" 8 am to 10am",
       link :"",
       alert:function(){
-        return alert ("some value")
+        return Alert ("some value")
       }
      //link :"/monday"
     },
@@ -29,7 +26,8 @@ const tournamentData = [
         date : "12-09-2022",
         name : "Thousday Star",
         price : "₹10000",
-        live :"8am to 10am",
+        time :"8am to 10am",
+        upcome:"upcomeing",
         link:"",
         // link:"/theusday",
         alert:function(){
@@ -41,7 +39,8 @@ const tournamentData = [
         date : "12-09-2022",
         name : "Wenesday",
         price : "₹2 Lakhs",
-        live :"8am to 12pm",
+        time :"8am to 12pm",
+        upcome:"upcomeing",
         link:"",
         // link:"/wedday",
         alert:function(){
@@ -53,9 +52,9 @@ const tournamentData = [
         date : "12-09-2022",
         name : "Thusday Masla",
         price : "₹2 Lakhs",
-        live :" 8 am to 10am",
+        time :" 8 am to 10am",
+        upcome:"upcomeing",
         link:"",
-
         // link:"/thusday",
         alert:function(){
           return alert ("some value")
@@ -66,7 +65,9 @@ const tournamentData = [
         date : "12/08-2022",
         name : "Freedom friday",
         price : "₹2 Lakhs",
-        live :" 8 am to 10am",
+        time :" 8 am to 10am",
+        upcome:"upcomeing",
+
         link:"",
         // link:"/friday",
         alert:function(){
@@ -78,7 +79,8 @@ const tournamentData = [
         date : "12-08-2022",
         name : "Saterday San",
         price : "₹2 Lakhs",
-        live :" 8 am to 10am",
+        time :" 8 am to 10am",
+        upcome:"upcomeing",
         link:"",
         // link:"/saterday"
         alert:function(){
@@ -112,7 +114,7 @@ const sunday = [
     value : "0",
     firstprice : "(1st) ₹5000",
     percentage : "99%",
-    live :"Review"
+    time :"Review"
 
   },
 
