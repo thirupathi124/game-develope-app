@@ -4,10 +4,9 @@
 
 
 .contest{
-   
     background: black;
     color: white;
-    padding: 25npmpx 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     
 }
 .contests{
@@ -15,7 +14,6 @@
     align-items: center;
     justify-content: space-between;
     padding:10px;
-
 }
 .start{
     text-align: center;
@@ -23,6 +21,7 @@
     color: inherit;
     font-family: MONOSPACE;
     font-weight: 900;
+    font-size: 16px;
 
     
 }
@@ -35,7 +34,7 @@
 .sun-contest{
     /* background: whitesmoke; */
     /* box-shadow: 0px 0px 8px black; */
-    padding: 10px 0px 0px 10px;
+    padding: 15px 0px 0px 10px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -46,13 +45,15 @@
 .only{
     background: linear-gradient(to left, whitesmoke,white);
     box-shadow:0px 0px 9px #c7bbbb;
-
+    background: linear-gradient(to right,whitesmoke,rgb(192, 185, 185));
     padding: 10px;
+    color: black;
+    font-size: 12px;
 }
 .contest-des{
     box-shadow: 0px 0px 9px #c7bbbb;
     padding: 10px 20px 10px 20px;
-    margin: 30px 10px 0px 10px;
+    margin: 15px 10px 0px 10px;
     border-radius: 5px;
 }
 .contest-card{
@@ -142,7 +143,7 @@ progress::-webkit-progress-value{
 .search-icon{
     display: flex;
     align-items: center;
-    padding: 5px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 10px;
     background-color: #033f2e;
     margin: 10px;

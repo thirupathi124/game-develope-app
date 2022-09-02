@@ -16,7 +16,7 @@ function Homerender(){
                  </div>   
                     <div className="alarm">
                         <i className="bi-alarm-fill" />
-                        <p>{item.time}</p>
+                        <p className="time">{item.time}</p>
                     </div>
                 </div>
                 <div className="starting">
@@ -33,7 +33,7 @@ function Homerender(){
                     <div className="icons-mark">                   
                         <i class="bi-check-circle-fill" style={{color:"green"}} role="img" aria-label="GitHub"></i>
 
-                    <div>Graduated</div>
+                    <p className="grand">Graduated</p>
                     </div>
                 </div>
                 </div>
