@@ -19,7 +19,6 @@
     text-align: center;
     padding: 10px;
     color: inherit;
-    font-family: MONOSPACE;
     font-weight: 900;
     font-size: 16px;
 
@@ -53,7 +52,7 @@
 .contest-des{
     box-shadow: 0px 0px 9px #c7bbbb;
     padding: 10px 20px 10px 20px;
-    margin: 15px 10px 0px 10px;
+    margin: 15px 10px 15px 10px;
     border-radius: 5px;
 }
 .contest-card{
@@ -64,6 +63,7 @@ color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 14px;
 }
 .contest-prize{
     display: flex;
@@ -96,7 +96,7 @@ color: black;
     color: white;
     font-size: 13px;
     text-decoration: none;
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     text-align: center;
 }
@@ -117,14 +117,17 @@ progress::-webkit-progress-value{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 14px;
+    padding-top: 5px;
 }
 .total-player{
     color: red;
 }
 .contest-bottom{
-    margin: 20px 0px 5px 0px;
+   padding: 10px 0px 0px  0px;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 .first-price{
     display: flex;
@@ -143,19 +146,23 @@ progress::-webkit-progress-value{
 .search-icon{
     display: flex;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
-    background-color: #033f2e;
+    background:linear-gradient(
+      to right,  black,brown
+    );
     margin: 10px;
 }
 .search{
-    font-size: 20px;
     color: whitesmoke;
     border: none;
     outline: none;
     width: 270px;
-    background-color: #033f2e;
+    background:linear-gradient(
+      to right,  black,brown
+    );
     padding-left: 20px;
+    
 
 
 

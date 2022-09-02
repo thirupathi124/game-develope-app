@@ -19,8 +19,8 @@ function Sunday(){
                 </div>
                 
                 <div>
-                <i style={{color:"gold",paddingLeft:"15px"}} className="bi-trophy-fill"/>
-                <p style={{color:"gold"}}>₹10000</p>
+                <i style={{color:"gold"}} className="bi-trophy-fill"/>
+                <span style={{color:"gold",paddingLeft:"10px"}}>₹10000</span>
                 </div>
                 
             </div>

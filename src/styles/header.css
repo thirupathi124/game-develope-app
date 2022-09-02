@@ -53,22 +53,15 @@
 
 /*footer */
 .bottom{
-    display: grid;
-    grid-template-columns: repeat(3,120px);
-    padding-left: 38px;
-    justify-content: space-between;
-     color:black;
-    
-
-   
-   
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
 }
 .icon-nav{
-    display: grid;
-    grid-template-columns: repeat(3,125px);
-    padding-left: 40px;
-    font-size: 25px;
-    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+
 }
 .homes:hover{
     color: red;

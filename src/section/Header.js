@@ -11,9 +11,9 @@ function Header() {
         <div className="footer">
           
              <div className="icon-nav">
-                <Link to="Home"><i style={{color:"black"}} className="bi-house-door-fill"/></Link>
-                <Link to="/winner"><i style={{color:"black"}} class="bi-trophy-fill"/></Link> 
-                <Link to="/mems"><i style={{color:"black"}} class="bi-telegram"/></Link>
+                <Link to="Home"><i style={{color:"gray"}} className="bi-house-door-fill"/></Link>
+                <Link to="/winner"><i style={{color:"gray"}} class="bi-trophy-fill"/></Link> 
+                <Link to="/mems"><i style={{color:"gray"}} class="bi-chat-fill"/></Link>
 
 
                </div>
@@ -22,7 +22,7 @@ function Header() {
           
                 <Link  className="home"to="/Home">Home</Link>
                 <Link  className="home" to="/winner">Winner</Link>
-                <Link  className="home" to="/mems">Telegarm</Link>
+                <Link  className="home" to="/mems">Chat</Link>
              
              </div>
             
