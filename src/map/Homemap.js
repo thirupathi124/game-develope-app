@@ -2,20 +2,20 @@ import {Alert} from "@mui/material"
 
  const tournamentData = [
     {
-      date : "12-09-2022",
+      date : "00-00-0000",
       name : "Sunday Party",
       upcome :"Completed",
       price : "₹2 Lakhs",
-      time :"8am to 12pm",
+      time :"0am to 0pm",
       link :"/sunday",
      },
     
      {
-      date : "12-09-2022",
+      date : "00-00-000",
       name : "Moday Special",
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
-      time :" 8 am to 10am",
+      time :"0am to 0am",
       link :"",
       alert:function(){
         return Alert ("some value")
@@ -23,11 +23,11 @@ import {Alert} from "@mui/material"
      //link :"/monday"
     },
     {
-        date : "12-09-2022",
+        date : "00-00-000",
         name : "Thousday Star",
         price : "₹10000",
-        time :"8am to 10am",
-        upcome:"upcomeing",
+        time :"0am to 0am",
+        upcome:"Upcomeing",
         link:"",
         // link:"/theusday",
         alert:function(){
@@ -36,11 +36,11 @@ import {Alert} from "@mui/material"
     },
 
     {
-        date : "12-09-2022",
+        date : "00-00-000",
         name : "Wenesday",
         price : "₹2 Lakhs",
-        time :"8am to 12pm",
-        upcome:"upcomeing",
+        time :"0am to 0pm",
+        upcome:"Upcomeing",
         link:"",
         // link:"/wedday",
         alert:function(){
@@ -49,11 +49,11 @@ import {Alert} from "@mui/material"
 
       },
       {
-        date : "12-09-2022",
+        date : "00-00-000",
         name : "Thusday Masla",
         price : "₹2 Lakhs",
-        time :" 8 am to 10am",
-        upcome:"upcomeing",
+        time :"0am to 0am",
+        upcome:"Upcomeing",
         link:"",
         // link:"/thusday",
         alert:function(){
@@ -65,8 +65,8 @@ import {Alert} from "@mui/material"
         date : "12/08-2022",
         name : "Freedom friday",
         price : "₹2 Lakhs",
-        time :" 8 am to 10am",
-        upcome:"upcomeing",
+        time :"0am to 0am",
+        upcome:"Upcomeing",
 
         link:"",
         // link:"/friday",
@@ -76,11 +76,11 @@ import {Alert} from "@mui/material"
 
       },
       {
-        date : "12-08-2022",
+        date : "00-00-0000",
         name : "Saterday San",
         price : "₹2 Lakhs",
-        time :" 8 am to 10am",
-        upcome:"upcomeing",
+        time :" 0am to 0am",
+        upcome:"Upcomeing",
         link:"",
         // link:"/saterday"
         alert:function(){
