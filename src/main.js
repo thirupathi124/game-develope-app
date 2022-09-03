@@ -10,6 +10,7 @@ import Thusday  from "./pages/Thusday";
 import Friday from "./pages/Friday";
 import Saterday from "./pages/Saterday"
 import Leader from "./Leaderboard/LaderBoard";
+import Form from "./Form";
 
 
 function Main(){
@@ -30,6 +31,7 @@ function Main(){
                  <Route path="/Friday" element ={<Friday/>}/>
                  <Route path="/Saterday" element ={<Saterday/>}/>
                  <Route path="/Leader" element={<Leader/>}/>
+                 <Route path="/Form" element={<Form/>}/>
 
              </Routes>
              </BrowserRouter>

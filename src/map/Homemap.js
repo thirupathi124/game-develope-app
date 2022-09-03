@@ -107,12 +107,12 @@ const registration = [
 
 const sunday = [
  {
-    totalprice : "₹5000 FiveThousand",
-    pay : "₹5",
-    spots : "0 spots left",
-    left : "1000 spots",
-    value : "0",
-    firstprice : "(1st) ₹5000",
+    totalprice : "₹50,000 Fifty Thousand",
+    pay : "₹15",
+    spots : "2338 spots left",
+    left : "10000 spots",
+    value : "40",
+    firstprice : "(1st) ₹20,000",
     percentage : "99%",
     time :"Review"
 

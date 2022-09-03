@@ -87,7 +87,7 @@ function Leader(){
             <p className="spots">{item.left}</p>
          
         </div>
-        <Link to="https://onedrive.live.com/edit.aspx?resid=43CCC83CA9553AD0!349&ithint=file%2cdocx&wdOrigin=OFFICECOM-WEB.MAIN.MRU" className="pay-len">JOIN {item.pay}</Link>
+        <Link to="https://www.google.com" className="pay-len">JOIN {item.pay}</Link>
          </div>
         <div className="contest-bottom bg">
             <div className="first-price">
@@ -105,7 +105,7 @@ function Leader(){
     </div>
     ))}
     </div>
-
+    <div className="tabs">
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs 
          TabIndicatorProps={{style: {background:"red",height:"3px"}}}
@@ -123,7 +123,7 @@ function Leader(){
       <TabPanel value={value} index={1}>
            <LData/>
       </TabPanel>
-      
+      </div>
    
     </>
             

@@ -6,8 +6,7 @@
 .contest{
     background: black;
     color: white;
-    padding: 10px 20px 10px 20px;
-    
+    padding-top: 10px;    
 }
 .contests{
     display: flex;
@@ -184,4 +183,7 @@ progress::-webkit-progress-value{
 }
 .sunprice{
     font-weight: 700;
+}
+.tabs{
+    margin-top: 20px;
 }

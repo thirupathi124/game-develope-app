@@ -1,17 +1,20 @@
-
+*{
+    overflow-x:auto;
+}
 table{
     margin-bottom: 100px;
 }
-table,th,td{
+th,td{
     border-bottom:1px solid rgb(197, 191, 191);
     border-collapse: collapse;
     color: black;
     font-weight: 500;
-    font-size: 16px;
-    width: 100%;
+    font-size: 14px;
+    width: 100%
 }
 td,th{
     padding: 10px 10px 10px 10px;
+  
 }
 .rank{
     padding-right: 240px;
