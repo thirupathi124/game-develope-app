@@ -90,7 +90,7 @@ color: black;
     outline: none;
     background: green;
     border-radius: 5px;
-    padding: 14px 20px 14px 20px;
+    padding: 10px 20px 10px 20px;
     cursor: pointer;
     color: white;
     font-size: 13px;
@@ -123,7 +123,7 @@ progress::-webkit-progress-value{
     color: red;
 }
 .contest-bottom{
-   padding: 10px 0px 0px  0px;
+   padding: 15px 0px 0px  0px;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
@@ -173,10 +173,11 @@ progress::-webkit-progress-value{
 
 }
 .bg{
-    background:gainsboro;
+    background: #f9f9f9;
     padding: 7px 10px 7px 10px;
-    border-bottom: 0.5px solid gray;
-    border-top: 0.5px solid gray;
+    border-bottom: 0.5px solid #f9f9f9;
+    border-top: 0.5px solid #f9f9f9;
+    margin-top: 20px;
 }
 .margin{
     margin: 10px;

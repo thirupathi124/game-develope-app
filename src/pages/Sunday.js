@@ -35,7 +35,7 @@ function Sunday(){
                 <div className="contest-top">
                     <p>Price Pool</p>
                     
-                        <p className="live">{item.live}</p>
+                        <li className="live">{item.live}</li>
                     
                     <p>Entry</p>
                 </div>

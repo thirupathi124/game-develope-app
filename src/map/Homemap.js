@@ -1,4 +1,3 @@
-import {Alert} from "@mui/material"
 
  const tournamentData = [
     {
@@ -7,7 +6,12 @@ import {Alert} from "@mui/material"
       upcome :"Completed",
       price : "₹2 Lakhs",
       time :"0am to 0pm",
-      link :"/sunday",
+      link :"",
+      // link :"/sunday",
+      
+      alert:function(){
+        return alert("Soon Update.... Join Our Telegram ")
+      }
      },
     
      {
@@ -16,11 +20,12 @@ import {Alert} from "@mui/material"
       upcome :"Upcomeing",
       price : "₹2 Lakhs",
       time :"0am to 0am",
-      link :"",
-      alert:function(){
-        return Alert ("some value")
-      }
-     //link :"/monday"
+      // link :"",
+      link :"/monday",
+
+      // alert:function(){
+      //   return alert("Soon Update.... Join Our Telegram ")
+      // }
     },
     {
         date : "00-00-000",
@@ -31,7 +36,7 @@ import {Alert} from "@mui/material"
         link:"",
         // link:"/theusday",
         alert:function(){
-          return alert ("some value")
+          return alert("Soon Update.... Join Our Telegram ")
         }
     },
 
@@ -44,7 +49,7 @@ import {Alert} from "@mui/material"
         link:"",
         // link:"/wedday",
         alert:function(){
-          return alert ("some value")
+          return alert("Soon Update.... Join Our Telegram ")
         }
 
       },
@@ -57,7 +62,7 @@ import {Alert} from "@mui/material"
         link:"",
         // link:"/thusday",
         alert:function(){
-          return alert ("some value")
+          return alert("Soon Update.... Join Our Telegram ")
         }
 
       },
@@ -71,7 +76,7 @@ import {Alert} from "@mui/material"
         link:"",
         // link:"/friday",
         alert:function(){
-          return alert ("some value")
+          return alert("Soon Update.... Join Our Telegram ")
         }
 
       },
@@ -84,7 +89,7 @@ import {Alert} from "@mui/material"
         link:"",
         // link:"/saterday"
         alert:function(){
-          return alert ("some value")
+          return alert("Soon Update.... Join Our Telegram ")
         }
       }
    
@@ -114,7 +119,7 @@ const sunday = [
     value : 90,
     firstprice : "(1st) ₹20,000",
     percentage : "99%",
-    time :"Review"
+    live :"Review"
 
   },
 

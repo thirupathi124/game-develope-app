@@ -70,7 +70,6 @@
 .footer{
     background: whitesmoke;
     color: white;
-    z-index: 9999;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -84,4 +83,8 @@
 }
 .home:hover{
     color: gray;
+}
+.fit{
+    display: grid;
+    text-align: center;
 }

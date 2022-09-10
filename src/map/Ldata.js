@@ -2,20 +2,20 @@ const leaddata = [
     {
         id:"1",
         name:"rock",
-        won:"",
-        rank:"-"
+        won:"₹500",
+        rank:"#1"
     },
     {
         id:"2",
         name:"tdsfdsfdsu",
-        won:"",
-        rank:"-"
+        won:"₹100",
+        rank:"#2"
     },
     {
         id:"3",
         name:"pathi",
-        won:"",
-        rank:"-"
+        won:"₹50",
+        rank:"#3"
     },
     {
         id:"4",
