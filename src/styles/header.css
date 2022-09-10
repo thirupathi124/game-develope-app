@@ -88,3 +88,40 @@
     display: grid;
     text-align: center;
 }
+.team{
+    border: none;
+    outline: none;
+    color: black;
+}
+.jointeam{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+    gap: 4px;
+}
+.teams{
+    display: flex;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    padding:  5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right,black,rgb(43, 39, 39));
+}
+.scribe{
+    color: whitesmoke;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    padding:  5px 30px 5px 30px;
+    border-radius: 5px;
+    background: linear-gradient(to left,rgb(32, 32, 51),rgb(8, 8, 41));
+}
+/* .menu-link{
+    border-bottom: 1px solid rgb(48, 45, 45);
+    padding-bottom: 40px;
+} */

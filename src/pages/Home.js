@@ -17,12 +17,14 @@ function Footer(){
               <div className="trophy">
             
               <h3 className="top-title">easy11money</h3>
-              <i className="bi-trophy-fill" style={{color:"white",fontSize:"20px",paddingBottom:"5px"}}/>
+              {/* <i className="bi-trophy-fill" style={{color:"white",fontSize:"20px",paddingBottom:"5px"}}/> */}
 
 
               </div>
-              <i style={{color:"white",fontSize:"30px"}} class="bi-telegram" />
-
+              <div className="jointeam">
+              <i style={{color:"black",fontSize:"13px"}} class="bi-telegram" />
+              <button className="team">Join</button>
+              </div>
              </div>
             
             </div>

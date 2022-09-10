@@ -32,14 +32,12 @@
   .menu-top{
     background: black;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px 0px 20px;
- }
+    text-align: center;
+  }
  .menu-title{
     padding: 20px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
  .boot{
     position: absolute;
@@ -60,4 +58,19 @@
  }
 .level{
   color: whitesmoke;
+}
+.divflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 20px;
+}
+.offical{
+  display: flex;
+  gap: 20px;
+  color: black;
+  align-items: center;
+  padding:15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
