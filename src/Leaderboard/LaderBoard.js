@@ -36,7 +36,7 @@ function a11yProps(index: number) {
       'aria-controls': `simple-tabpanel-${index}`,
     };
   }
-function Leader(){
+function Leader({val}){
     const[price,setPrice] = useState(false);
     // const[value,setValue] = useState(0)
     function handle(){
@@ -47,7 +47,19 @@ function Leader(){
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
       setValue(newValue);
     };
-   
+  function update(){
+ 
+    if(sunday[0].value === 90){
+          const incre = sunday[0].value + 10
+          return incre
+
+  }  else{
+    console.log("error")
+  }
+
+}
+
+
       
     return(
         <>
@@ -81,7 +93,7 @@ function Leader(){
         <div className="contest-prize">
             <p className="pool">{item.totalprice}</p>
         </div>
-        <progress className="player-progress" value={item.value} max={100}></progress>
+        <progress className="player-progress" onClick={update} max={100}></progress>
         <div className="players">
             <p className="total-player">{item.spots}</p>
             <p className="spots">{item.left}</p>
@@ -124,6 +136,7 @@ function Leader(){
            <LData/>
       </TabPanel>
       </div>
+    
    
     </>
             

@@ -109,9 +109,9 @@ const sunday = [
  {
     totalprice : "₹50,000 Fifty Thousand",
     pay : "₹15",
-    spots : "2338 spots left",
-    left : "10000 spots",
-    value : "40",
+    spots : "0 spots left",
+    left : "10 spots",
+    value : 90,
     firstprice : "(1st) ₹20,000",
     percentage : "99%",
     time :"Review"
