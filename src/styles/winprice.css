@@ -1,18 +1,21 @@
+
+*{
+    overflow: auto;
+}
 table{
     margin-bottom: 100px;
-    overflow: scroll;
+    border-collapse: collapse;
+
 }
 th,td{
     border-bottom:1px solid rgb(197, 191, 191);
-    border-collapse: collapse;
     color: black;
     font-weight: 500;
     font-size: 14px;
-    width: 100%
+    /* width: 100% */
 }
 td,th{
     padding: 10px 10px 10px 10px;
-    overflow-x: scroll;  
 }
 .rank{
     padding-right: 240px;

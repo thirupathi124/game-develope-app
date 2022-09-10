@@ -92,6 +92,7 @@
     border: none;
     outline: none;
     color: black;
+    background-color: whitesmoke;
 }
 .jointeam{
     display: flex;
@@ -100,6 +101,7 @@
     padding: 2px 5px 2px 5px;
     cursor: pointer;
     gap: 4px;
+    border-radius: 5px;
 }
 .teams{
     display: flex;

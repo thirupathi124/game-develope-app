@@ -17,9 +17,9 @@
 .start{
     text-align: center;
     padding: 10px;
-    color: inherit;
+    color: white;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 15px;
 
     
 }
@@ -28,6 +28,7 @@
 }
 .party{
     text-transform: uppercase;
+    font-size: 16px;
 }
 .sun-contest{
     /* background: whitesmoke; */
@@ -37,7 +38,7 @@
     font-weight: 500;
 }
 .pool{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 .only{
@@ -103,7 +104,6 @@ progress{
     width:100%;
     background: grey;
     height: 5px;
-    border-radius: 10px;
 }
 progress::-webkit-progress-value{
     background:linear-gradient(to right,orange,rgb(240, 36, 36));

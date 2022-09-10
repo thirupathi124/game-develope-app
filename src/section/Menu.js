@@ -31,7 +31,7 @@ function Menu({setMenu}){
               <p>Terms &amp; Conditions</p>
             </div>
             <div className="offical">
-              <i style={{fontSize:"20px"}} className="bi-telephone-fill"/>
+              <i style={{fontSize:"20px"}} className="bi-telephone"/>
               <p>Help &amp; Contact Us</p>
             </div>
             <div className="offical">
