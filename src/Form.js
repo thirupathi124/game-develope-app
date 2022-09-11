@@ -1,42 +1,40 @@
 import React,{useState,useEffect} from "react"
-import Home from "./pages/Home";
+import {database} from './firebase'
+
 
 
 export default function Form(){
 
   const[show,setShow]= useState(false)
     
-    const[data,setData] = useState([])
-    const[user,setUser] = useState({
-    name:"",
-    number:""
-  }) 
+    const[name,setName] = useState("")
+    const[number,setNumber] = useState("")
 
-  function handleChange(e){
-    const{name,value} = e.target
-    setUser({
-        ...user,
-   
-        [name] : value
-    })
-  } 
+
    
   function Submit(e){
     e.preventDefault();
 
-    if(user){
-    setData([
-        ...data,
-        {
-            text:user
-        }
-    ]);
+     database.collection('userdata')
+     .add({
+            name:name,
+            number:number          
+     })
+     .then(()=>{
+      alert("Join Successfully")
+     })
+     .catch((error) =>{
+      alert(error.message)
+     });
+     setName("")
+     setNumber("")
+   
 }
-setUser({name:"",number:""})
+console.log(name)
+console.log(number)
 
-}
-localStorage.setItem("data",JSON.stringify(data))
-console.log(localStorage.getItem("data"))
+
+
 
 
 return(       
@@ -45,25 +43,23 @@ return(
           <form onSubmit={Submit}>
           <input style={{padding:"10px",width:"70%"}} type="text"
                  placeholder="Name"
-                 name="name"
-                 value={user.name}
-                 onChange={handleChange}
+                 value={name}
+                 onChange={(e) => setName(e.target.value)}
                  required
                  /><br/><br/>
 
           <input style={{padding:"10px",width:"70%"}} type="number"
                  placeholder="Number"
                  required 
-                 name="number"
-                 value={user.number}
-                 onChange={handleChange}
+                 value={number}
+                 onChange={(e) => setNumber(e.target.value)}
                  
                  /><br/><br/>
          
-          <button onClick={() => setShow(true)}  style={{padding:"10px",width:"70%"}}>Sing up</button>
+          <button  style={{padding:"10px",width:"70%"}}>Sing up</button>
          {show && <h3>Registraion sucesfly</h3>}
         </form>
-    <table>
+    {/* <table>
             <tr>
               <th>So.No</th>
               <th>name</th>
@@ -80,7 +76,7 @@ return(
             </tr>
        ))}
 
-</table>
+</table> */}
         <div>
       </div>
     </div>
