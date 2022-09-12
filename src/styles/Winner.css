@@ -147,20 +147,18 @@ progress::-webkit-progress-value{
     align-items: center;
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
-    background:linear-gradient(
-      to right,  black,brown
-    );
+    background: whitesmoke;
     margin: 10px;
+    box-shadow: 0px 0px 9px rgb(114, 106, 106);
 }
 .search{
-    color: whitesmoke;
     border: none;
     outline: none;
     width: 270px;
-    background:linear-gradient(
-      to right,  black,brown
-    );
+    background: whitesmoke;
     padding-left: 20px;
+    font-size: 14px;
+    color:black;
     
 
 

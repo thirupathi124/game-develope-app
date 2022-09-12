@@ -5,33 +5,44 @@ import {database} from './firebase'
 
 export default function Form(){
 
-  const[show,setShow]= useState(false)
+  const[data,setData]= useState([])
+  
+  const[user,setUser] = useState({
+    name:"",
+    number:""
+  })
+function handleChange(e){
+  const{name,value} = e.target
+  setUser({
+    ...user,
+      [name] : value
     
-    const[name,setName] = useState("")
-    const[number,setNumber] = useState("")
-
-
-   
+  })
+}
+console.log(data)   
   function Submit(e){
     e.preventDefault();
+    setData([
+      ...data,
+      {
+        text:user
+      }
+    ])
+    setUser({name:"",number:""})
 
      database.collection('userdata')
      .add({
-            name:name,
-            number:number          
+            name:data,
+            // number:number          
      })
      .then(()=>{
-      alert("Join Successfully")
+      alert("Submit Successfully")
      })
      .catch((error) =>{
       alert(error.message)
      });
-     setName("")
-     setNumber("")
-   
+    
 }
-console.log(name)
-console.log(number)
 
 
 
@@ -43,23 +54,24 @@ return(
           <form onSubmit={Submit}>
           <input style={{padding:"10px",width:"70%"}} type="text"
                  placeholder="Name"
-                 value={name}
-                 onChange={(e) => setName(e.target.value)}
+                 value={user.name}
+                 name="name"
+                 onChange={handleChange}
                  required
                  /><br/><br/>
 
           <input style={{padding:"10px",width:"70%"}} type="number"
                  placeholder="Number"
                  required 
-                 value={number}
-                 onChange={(e) => setNumber(e.target.value)}
+                 name="number"
+                 value={user.number}
+                 onChange={handleChange}
                  
                  /><br/><br/>
          
           <button  style={{padding:"10px",width:"70%"}}>Sing up</button>
-         {show && <h3>Registraion sucesfly</h3>}
         </form>
-    {/* <table>
+    <table>
             <tr>
               <th>So.No</th>
               <th>name</th>
@@ -75,8 +87,7 @@ return(
               <td className="none">{item.text.number}</td>
             </tr>
        ))}
-
-</table> */}
+     </table>
         <div>
       </div>
     </div>

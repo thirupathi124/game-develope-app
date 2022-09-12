@@ -49,8 +49,8 @@ function Leader({val}){
     };
   function update(){
  
-    if(sunday[0].value === 90){
-          const incre = sunday[0].value + 10
+    if(sunday[0].value === typeof(number)){
+          const incre = sunday[0].value + 1
           return incre
 
   }  else{
@@ -136,8 +136,6 @@ function Leader({val}){
            <LData/>
       </TabPanel>
       </div>
-    
-   
     </>
             
     )

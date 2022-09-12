@@ -8,7 +8,7 @@ export default function LeaderData(){
     return(
         <div>
             <div className="search-icon">
-            <i style={{fontSize:"20px",color:"white"}} className="bi-search"/>
+            <i style={{fontSize:"20px",color:"black"}} className="bi-search"/>
             <input type="search"
                    className="search"
                    placeholder="Search your name..."

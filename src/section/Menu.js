@@ -14,34 +14,43 @@ function Menu({setMenu}){
             
            </div>
            <div className="menu-link">
+            <a className="under" href="https://t.me/+aukuguhEQzY3ZmFl">
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-people"/>
               <p>Offical Group</p>
             </div>
+            </a>
             <div className="offical">
               <i style={{fontSize:"20px",color:"green"}} className="bi-joystick"/>
               <p>How to Play</p>
             </div>
+            <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-telegram"/>
               <p>Join Telegram</p>
             </div>
+            </a>
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-link"/>
               <p>Terms &amp; Conditions</p>
             </div>
+            <a className="under" href="https://t.me/+xQ55jGBig-ljZjc9">
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-telephone"/>
               <p>Help &amp; Contact Us</p>
             </div>
+            </a>
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-share"/>
               <p>Invite Friends</p>
             </div>
             
+            <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
             <button className="teams">Join Our Team</button><br/>
+            </a>
+            <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
             <button className="scribe">Subscribe</button>
-          
+            </a>
            </div>
 
     

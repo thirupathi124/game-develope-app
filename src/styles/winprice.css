@@ -1,10 +1,6 @@
 
-*{
-    overflow: auto;
-}
 table{
     margin-bottom: 100px;
-    border-collapse: collapse;
 
 }
 th,td{
@@ -12,11 +8,13 @@ th,td{
     color: black;
     font-weight: 500;
     font-size: 14px;
-    /* width: 100% */
-}
-td,th{
     padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: scroll;
+
 }
+
 .rank{
     padding-right: 240px;
 }

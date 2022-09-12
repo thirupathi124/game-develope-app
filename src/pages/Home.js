@@ -4,7 +4,7 @@ import {Carousel}  from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
-
+import {Link} from "react-router-dom"
 function Footer(){
     const[menu, setMenu] = useState(false)
  return(
@@ -21,10 +21,12 @@ function Footer(){
 
 
               </div>
+              <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
               <div className="jointeam">
               <i style={{color:"black",fontSize:"13px"}} class="bi-telegram" />
               <button className="team">Join</button>
               </div>
+              </a>
              </div>
             
             </div>
