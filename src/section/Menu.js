@@ -21,7 +21,7 @@ function Menu({setMenu}){
             </div>
             </a>
             <div className="offical">
-              <i style={{fontSize:"20px",color:"green"}} className="bi-joystick"/>
+              <i style={{fontSize:"20px"}} className="bi-controller"/>
               <p>How to Play</p>
             </div>
             <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">

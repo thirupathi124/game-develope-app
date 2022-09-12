@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Section from "./section/Header";
 import Home from "./pages/Home";
 import Sunday from "./pages/Sunday";
 import Monday from "./pages/Monday";
@@ -11,17 +10,15 @@ import Friday from "./pages/Friday";
 import Saterday from "./pages/Saterday"
 import Leader from "./Leaderboard/LaderBoard";
 import Form from "./Form";
-
+import Login  from "./section/Login"
 
 function Main(){
 
     return(
         <div>
             <BrowserRouter>
-            <Section/>
              <Routes>
-
-                 <Route path="/game-develope-app" element={<Home/>}/>
+                 <Route path="/game-develope-app" element={<Login/>}/>
                  <Route path="/Home" element={<Home/>}/>
                  <Route path="/Sunday" element={<Sunday />}/>
                  <Route path="/Monday" element={<Monday/>}/>
@@ -32,7 +29,6 @@ function Main(){
                  <Route path="/Saterday" element ={<Saterday/>}/>
                  <Route path="/Leader" element={<Leader/>}/>
                  <Route path="/Form" element={<Form/>}/>
-
              </Routes>
              </BrowserRouter>
         </div>

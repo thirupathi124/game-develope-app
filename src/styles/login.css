@@ -1,0 +1,78 @@
+.login-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+.login{
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;   
+}
+.welcome{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    color: rgb(65, 61, 61);
+}
+.tele{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background:rgb(15 53 195);
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+.join-tele{
+    font-size: 20px;
+}
+.and{
+    padding: 25px;
+    color: gray;
+    text-align: center;
+}
+.login-title{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    color: black;
+    /* padding: 20px 5px 20px 20px; */
+    font-family: Oswald;
+    text-transform:lowercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.y{
+    color: #1fb3f0;
+}
+.user-data{
+    text-align: center;
+}
+.login-btn{
+    margin: 30px auto;
+    display: block;
+}
+.name{
+    margin: 10px;
+    padding: 5px;
+    width: 280px;
+}
+.number{
+    width: 280px;
+    margin: 10px;
+    padding: 5px;
+}
+.login-btn{
+    border: none;
+    outline: none;
+    width: 200px;
+    background: #2314a8;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+}

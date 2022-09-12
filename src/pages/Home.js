@@ -4,6 +4,8 @@ import {Carousel}  from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
+import Section from "../section/Header";
+
 import {Link} from "react-router-dom"
 function Footer(){
     const[menu, setMenu] = useState(false)
@@ -53,6 +55,7 @@ function Footer(){
             <Homerend/>
        </div>
        <Menu setMenu =  {setMenu}/>
+       <Section/>
 
      </div>
     );

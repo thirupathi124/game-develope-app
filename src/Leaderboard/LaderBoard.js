@@ -5,6 +5,8 @@ import{sunday} from "../map/Homemap";
 import {Tabs,Tab,Box,Typography} from "@mui/material"
 import Winner from "../Leaderboard/Winner"
 import LData from "../Leaderboard/Leaderdata"
+import Section from "../section/Header";
+
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -135,6 +137,7 @@ function Leader({val}){
       <TabPanel value={value} index={1}>
            <LData/>
       </TabPanel>
+      <Section/>
       </div>
     </>
             
