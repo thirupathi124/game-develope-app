@@ -1,3 +1,4 @@
+import Alert from "@mui/material/Alert"
 
  const tournamentData = [
     {
@@ -10,7 +11,10 @@
       // link :"/sunday",
       
       alert:function(){
-        return alert("Soon Update.... Join Our Telegram ")
+        return <Alert severity="success">eerer</Alert>
+
+      
+          
       }
      },
     
