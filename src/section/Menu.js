@@ -1,8 +1,31 @@
 import React from "react";
 import "../styles/menu.css";
+import {useNavigate} from "react-router-dom"
+// import { Logout } from "@mui/icons-material";
+
 
 function Menu({setMenu}){
-    return(
+
+  const history = useNavigate()
+  const [out,setLogout] = React.useState(false)
+
+
+ 
+
+ function handleLogout(){
+ 
+    if(localStorage.removeItem("Auth"))
+    setLogout(true)
+ }
+
+ React.useEffect(() =>{
+  
+  if(!localStorage.getItem("Auth")) history("/game-develope-app")
+
+},[out,history]);
+
+
+return(
       <>
       
         <div className="create-ad">
@@ -52,7 +75,7 @@ function Menu({setMenu}){
             <button className="scribe">Subscribe</button>
             </a>
            </div>
-
+           <button onClick={handleLogout}>Logout</button>
     
    
         </div>

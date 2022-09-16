@@ -3,18 +3,20 @@ import "../styles/login.css"
 import {Link} from "react-router-dom"
 import Home from "../pages/Home";
 import {database} from '../firebase'
+import {useNavigate} from "react-router-dom"
+import {useHistory} from "use-history"
 
 
 
 function Login(){
+  const history = useNavigate()
     const[data,setData]= useState([])
   
   const[user,setUser] = useState({
     name:"",
     number:""
   })
-  const name = user.name
-const number = user.number  
+
 
 console.log(data)   
 function handleChange(e){
@@ -26,31 +28,41 @@ function handleChange(e){
   })
  
 }
-console.log(data)   
-  function Submit(e){
+
+React.useEffect(() =>{
+   if(localStorage.getItem("Auth"))  history("/home")
+},[])
+
+function Submit(e){
     e.preventDefault();
+   
     setData([
       ...data,
-      {
+       {
         text:user
       }
     ])
     setUser({name:"",number:""})
    
-    
-    database.collection('userdata')
+   database.collection('userdata')
      .add({
-            name:data,
+            name:user,
             // number:number          
      })
      .then(()=>{
-      alert("Submit Successfully")
+      alert("Login Successfully")
      })
      .catch((error) =>{
       alert(error.message)
      });
     
+     history("/home")   
+   localStorage.setItem("Auth",true)
+ 
 }
+
+
+
 
 
 
@@ -70,25 +82,27 @@ console.log(data)
              <p className="and">________AND________</p>
              <div className="user-data">
              <input className="name"
+                    required
+
                     type="text" 
                     placeholder="Yourname"
                     value={user.name}
                     name="name"
                     onChange={handleChange}
-                    required
+                  
                     /><br/>
              <input className="number" 
+                      required 
                     type="number" 
                     placeholder="Phonenumber"
-                   required 
+                 
                    name="number"
                    value={user.number}
                    onChange={handleChange}
                     />
              </div>
-             <Link to="/Home">
              <button  className="login-btn">Log In</button>
-             </Link>
+             
              </form>
             </div>
         </div>
