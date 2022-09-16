@@ -9,8 +9,9 @@ import Thusday  from "./pages/Thusday";
 import Friday from "./pages/Friday";
 import Saterday from "./pages/Saterday"
 import Leader from "./Leaderboard/LaderBoard";
-import Form from "./Form";
 import Login  from "./section/Login"
+import Term from "./menupage/Terms"
+import Amount from "./menupage/withdraw";
 
 function Main(){
 
@@ -28,7 +29,8 @@ function Main(){
                  <Route path="/Friday" element ={<Friday/>}/>
                  <Route path="/Saterday" element ={<Saterday/>}/>
                  <Route path="/Leader" element={<Leader/>}/>
-                 <Route path="/Form" element={<Form/>}/>
+                 <Route path="/Terms" element={<Term/>}/>
+                 <Route path="/Amount" element={<Amount/>}/>
              </Routes>
              </BrowserRouter>
         </div>

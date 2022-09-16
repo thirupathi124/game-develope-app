@@ -17,8 +17,6 @@ function Login(){
     number:""
   })
 
-
-console.log(data)   
 function handleChange(e){
   const{name,value} = e.target
   setUser({
@@ -43,12 +41,15 @@ function Submit(e){
       }
     ])
     setUser({name:"",number:""})
+ 
    
    database.collection('userdata')
      .add({
-            name:user,
-            // number:number          
+            datauser:user,
+            // number:number  
+       
      })
+
      .then(()=>{
       alert("Login Successfully")
      })
@@ -102,8 +103,8 @@ function Submit(e){
                     />
              </div>
              <button  className="login-btn">Log In</button>
-             
              </form>
+         
             </div>
         </div>
     )

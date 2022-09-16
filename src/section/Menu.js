@@ -1,17 +1,12 @@
 import React from "react";
 import "../styles/menu.css";
-import {useNavigate} from "react-router-dom"
-// import { Logout } from "@mui/icons-material";
+import {useNavigate,Link} from "react-router-dom"
+
 
 
 function Menu({setMenu}){
-
   const history = useNavigate()
   const [out,setLogout] = React.useState(false)
-
-
- 
-
  function handleLogout(){
  
     if(localStorage.removeItem("Auth"))
@@ -22,7 +17,7 @@ function Menu({setMenu}){
   
   if(!localStorage.getItem("Auth")) history("/game-develope-app")
 
-},[out,history]);
+}, [out]);
 
 
 return(
@@ -42,6 +37,10 @@ return(
               <i style={{fontSize:"20px"}} className="bi-people"/>
               <p>Offical Group</p>
             </div>
+            <Link to="/amount" className="offical">
+              <i style={{fontSize:"20px"}} className="bi-coin"/>
+              <p>Withdraw amount</p>
+            </Link>
             </a>
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-controller"/>
@@ -53,10 +52,10 @@ return(
               <p>Join Telegram</p>
             </div>
             </a>
-            <div className="offical">
+            <Link to="/terms" className="offical">
               <i style={{fontSize:"20px"}} className="bi-link"/>
               <p>Terms &amp; Conditions</p>
-            </div>
+            </Link>
             <a className="under" href="https://t.me/+xQ55jGBig-ljZjc9">
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-telephone"/>
@@ -67,20 +66,21 @@ return(
               <i style={{fontSize:"20px"}} className="bi-share"/>
               <p>Invite Friends</p>
             </div>
+            <div onClick={handleLogout} className="offical">
+              <i style={{fontSize:"20px"}} className="bi-box-arrow-left"/>
+              <p>Logout</p>
+            </div>
             
             <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
             <button className="teams">Join Our Team</button><br/>
             </a>
-            <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
-            <button className="scribe">Subscribe</button>
-            </a>
+           
            </div>
-           <button onClick={handleLogout}>Logout</button>
-    
-   
+           
+           
         </div>
         <div className="ad-overlay" onClick={() =>setMenu(false)}></div>
-
+        
 
       </>  
   )

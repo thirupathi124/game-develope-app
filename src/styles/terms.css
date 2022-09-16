@@ -1,0 +1,28 @@
+.terms{
+    margin: 10px;
+    text-align: start;
+}
+.gaps{
+    padding: 20px 20px 20px 10px;
+}
+.regi{
+    box-shadow: 0px 0px 9px rgb(148, 141, 141) ;
+
+}
+.draw{
+    padding: 20px;
+    color: whitesmoke;
+    background: linear-gradient(to right,rgb(96, 96, 247),rgb(25, 25, 87));
+}
+.stepone{
+    background-color: aquamarine;
+    padding: 5px 10px 5px 10px;
+}
+.payme{
+    color: blue;
+    padding: 10px 10px 10px 0px;
+
+}
+.payme:hover{
+    text-decoration: underline;
+}
