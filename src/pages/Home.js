@@ -26,7 +26,7 @@ function Footer(){
               </div>
               <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
               <div className="jointeam">
-              <i style={{color:"black",fontSize:"13px"}} class="bi-telegram" />
+              <i style={{color:"#2f4e93",fontSize:"13px"}} class="bi-telegram" />
               <button className="team">Join</button>
               </div>
               </a>

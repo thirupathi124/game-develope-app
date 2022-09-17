@@ -41,7 +41,9 @@ function Sunday(){
                 </div>
                 <div className="contest-prize">
                     <p className="pool">{item.totalprice}</p>
-                    <Link to="/home" className="pay">{item.pay}</Link>
+                    <div> <a  href='https://pmny.in/gIukSmMYIZH8' >₹12Pay</a> </div>
+
+                    {/* <Link to="/home" className="pay">{item.pay}</Link> */}
                 </div>
                 <progress className="player-progress" value={item.value} max={100}></progress>
                 <div className="players">
@@ -65,6 +67,8 @@ function Sunday(){
             </Link>
             ))}
             </div>
+            <div> <a  href='https://pmny.in/gIukSmMYIZH8' >₹12Pay</a> </div>
+
          </div>
 
     )

@@ -1,7 +1,7 @@
 
 table{
     margin-bottom: 100px;
-
+    border-collapse: collapse;
 }
 th,td{
     border-bottom:1px solid rgb(197, 191, 191);
@@ -13,6 +13,7 @@ th,td{
     border-collapse: collapse;
 
 }
+
 
 .rank{
     padding-right: 240px;

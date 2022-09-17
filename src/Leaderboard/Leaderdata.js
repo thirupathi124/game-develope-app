@@ -4,7 +4,8 @@ import {leaddata} from "../map/Ldata"
 export default function LeaderData(){
     const [search,setSearch] = useState("")
 
-
+    // const shuffledArray = leaddata.sort((a,b) => 0.5 - Math.random());
+   console.log(leaddata)
     return(
         <div>
             <div className="search-icon">
