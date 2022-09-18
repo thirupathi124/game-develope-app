@@ -26,3 +26,51 @@
 .payme:hover{
     text-decoration: underline;
 }
+.howplay{
+}
+.plystart{
+    display: flex;
+    gap:10px;
+    padding: 10px 5px 10px 10px;
+    font-weight: 900;
+    font-size: 16px;
+
+}
+.colr{
+    color:#2f4e93;
+    
+}
+.fant{
+    color: blue;
+}
+.onestep{
+    background:linear-gradient(to left,rgb(27, 219, 27),rgb(22, 109, 22));
+    padding: 10px;
+    border-radius: 100%;
+    width: 30px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+}
+.step{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding: 20px 0px 0px 10px;
+}
+.setpimg{
+    width: 200px;
+}
+.slec{
+    padding: 10px;
+}
+.choo{
+    padding: 10px 0px 10px 30px;
+    letter-spacing: 1px;
+}
+.gauid{
+    background: whitesmoke;
+    border-radius:20px;
+    margin: 10px;
+}

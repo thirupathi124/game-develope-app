@@ -42,10 +42,10 @@ return(
               <p>Withdraw amount</p>
             </Link>
             </a>
-            <div className="offical">
+            <Link to="/play" className="offical">
               <i style={{fontSize:"20px"}} className="bi-controller"/>
               <p>How to Play</p>
-            </div>
+            </Link>
             <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
             <div className="offical">
               <i style={{fontSize:"20px"}} className="bi-telegram"/>

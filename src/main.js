@@ -12,6 +12,7 @@ import Leader from "./Leaderboard/LaderBoard";
 import Login  from "./section/Login"
 import Term from "./menupage/Terms"
 import Amount from "./menupage/withdraw";
+import Play from "./menupage/Howplay"
 
 function Main(){
 
@@ -31,6 +32,7 @@ function Main(){
                  <Route path="/Leader" element={<Leader/>}/>
                  <Route path="/Terms" element={<Term/>}/>
                  <Route path="/Amount" element={<Amount/>}/>
+                 <Route path="/Play" element={<Play/>}/>
              </Routes>
              </BrowserRouter>
         </div>
