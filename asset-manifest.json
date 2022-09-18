@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/game-develope-app/static/css/main.fe4aa336.css",
-    "main.js": "/game-develope-app/static/js/main.dbb6709a.js",
+    "main.css": "/game-develope-app/static/css/main.ff24f003.css",
+    "main.js": "/game-develope-app/static/js/main.8dd551f6.js",
     "static/js/787.28cb0dcd.chunk.js": "/game-develope-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/waitlogo.png": "/game-develope-app/static/media/waitlogo.55d7f6011cb0b8787bfe.png",
     "index.html": "/game-develope-app/index.html",
-    "main.fe4aa336.css.map": "/game-develope-app/static/css/main.fe4aa336.css.map",
-    "main.dbb6709a.js.map": "/game-develope-app/static/js/main.dbb6709a.js.map",
+    "main.ff24f003.css.map": "/game-develope-app/static/css/main.ff24f003.css.map",
+    "main.8dd551f6.js.map": "/game-develope-app/static/js/main.8dd551f6.js.map",
     "787.28cb0dcd.chunk.js.map": "/game-develope-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe4aa336.css",
-    "static/js/main.dbb6709a.js"
+    "static/css/main.ff24f003.css",
+    "static/js/main.8dd551f6.js"
   ]
 }
