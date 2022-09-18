@@ -34,6 +34,7 @@
     padding: 10px 5px 10px 10px;
     font-weight: 900;
     font-size: 16px;
+   justify-content: center;
 
 }
 .colr{
@@ -61,16 +62,19 @@
 }
 .setpimg{
     width: 200px;
+    box-shadow: 0px 0px 9px greenyellow;
 }
 .slec{
     padding: 10px;
 }
 .choo{
-    padding: 10px 0px 10px 30px;
+    padding: 10px 0px 10px 20px;
     letter-spacing: 1px;
+    color:gray;
+    font-size: 14px;
 }
 .gauid{
     background: whitesmoke;
     border-radius:20px;
-    margin: 10px;
+    margin: 50px 10px 30px 10px;
 }

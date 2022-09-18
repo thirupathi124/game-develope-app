@@ -1,5 +1,6 @@
 import React,{useState} from "react";
-import {leaddata} from "../map/Ldata"
+import {leaddata} from "../map/Ldata";
+import Wait from "../imges/waiting.jpeg"
 
 export default function LeaderData(){
     const [search,setSearch] = useState("")
@@ -39,8 +40,12 @@ export default function LeaderData(){
            
              </tbody>
          </table>
-:  <div>
-    <button>Leaderboard will be show after rssegistrtion ending</button>
+:  <div className="wait-ogo">
+         <p className="wa">Leaderboard will show after registration full</p>
+         <img className="wait-pic" src={Wait} alt="logo"/> 
+          <p className="wa">Be the first one to join this contest &amp;</p>
+          <p className="wal">start Winning</p>  
+          <button className="pool-pay">Join contest</button>
     </div>}
         </div>
     )

@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import {Link} from "react-router-dom";
 import "../styles/leader.css";
-import{sunday} from "../map/Homemap";
+import{registration, sunday} from "../map/Homemap";
 import {Tabs,Tab,Box,Typography} from "@mui/material"
 import Winner from "../Leaderboard/Winner"
 import LData from "../Leaderboard/Leaderdata"
@@ -64,11 +64,11 @@ function Leader({val}){
                 <i style={{fontSize:"25px"}} className="bi-arrow-left"/>
                </Link>
                <div className="sunday-gap">
-                <p className="party">sunday party</p>
+                <p className="party">{registration[0].tourname}</p>
                </div>
                 <div>
                 <i style={{color:"gold"}} className="bi-trophy-fill"/>
-                <span style={{color:"gold",paddingLeft:"10px"}}>₹10000</span>
+                <span style={{color:"gold",paddingLeft:"10px"}}>{registration[0].price}</span>
                 </div>
                 
                

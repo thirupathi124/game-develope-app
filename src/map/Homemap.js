@@ -104,8 +104,9 @@ import Alert from "@mui/material/Alert"
 
 const registration = [
   {
-    tourname:"Sunday Party",
-    starttime :"12 pm to 3 pm"
+    tourname:"sunday party",
+    starttime :"12 pm to 3 pm",
+    price:"₹5"
   }
 ]
 

@@ -20,12 +20,12 @@ function Sunday(){
                 
                 <div>
                 <i style={{color:"gold"}} className="bi-trophy-fill"/>
-                <span style={{color:"gold",paddingLeft:"10px"}}>₹10000</span>
+                <span style={{color:"gold",paddingLeft:"10px"}}>{registration[0].price}</span>
                 </div>
                 
             </div>
             
-            <p className="start">Registration Start {registration[0]?.starttime}</p>
+            <p className="start">registration open {registration[0]?.starttime}</p>
             </div>
             <p className="only">Only one contest make win 99% chance</p> 
             <p className="sun-contest">Contest</p>
