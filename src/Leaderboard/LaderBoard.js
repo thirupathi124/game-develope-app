@@ -49,13 +49,7 @@ function Leader({val}){
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
       setValue(newValue);
     };
-
-
-
-
-
-      
-    return(
+return(
         <>
       <div className="sunday-match">
          <div className="contest">

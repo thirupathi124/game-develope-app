@@ -1,6 +1,6 @@
 import Alert from "@mui/material/Alert"
 
- const tournamentData = [
+const tournamentData = [
     {
       date : "00-00-0000",
       name : "Sunday Party",
@@ -11,10 +11,7 @@ import Alert from "@mui/material/Alert"
       // link :"/sunday",
       
       alert:function(){
-        return <Alert severity="success">eerer</Alert>
-
-      
-          
+        return <button>click me more detaila</button>
       }
      },
     

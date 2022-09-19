@@ -1,14 +1,17 @@
 import React,{useState} from "react";
 import {leaddata} from "../map/Ldata";
-import Wait from "../imges/waiting.jpeg"
+import Wait from "../imges/waiting.jpeg";
+import Withdraw from "../section/Credit";
 
 export default function LeaderData(){
     const [search,setSearch] = useState("")
+    const [credit,setCredit] = useState(false)
+
 
     // const shuffledArray = leaddata.sort((a,b) => 0.5 - Math.random());
    console.log(leaddata)
     return(
-        <div>
+        <div className={`${credit && "show-create-credit"}`}>
             <div className="search-icon">
             <i style={{fontSize:"20px",color:"black"}} className="bi-search"/>
             <input type="search"
@@ -29,12 +32,16 @@ export default function LeaderData(){
      
   {leaddata.filter((item) => item.name.toLocaleLowerCase().includes(search)).map((item,index) =>(
                 <tr>
-                    <td className="tab-icon">
-                        <div><i className="bi-person-circle" style={{fontSize:"25px",color:"gray"}}/></div>
-                        {item.name}
-                       <div className="won">{item.won}</div>
-                        </td>
-                        <td>{item.rank}</td>
+                    <td>
+                        <div className="tab-icon">
+                        <i className="bi-person-circle" style={{fontSize:"25px",color:"gray"}}/>
+                        <h3>{item.name}</h3>
+                        <p className="won">{item.won}</p><br/><br/>
+                       </div>
+                       <p onClick={() => setCredit(true)} className="withdarw">{item.send}</p>
+
+                    </td>
+                     <td>{item.rank}</td>
                 </tr>
                 ))}
            
@@ -46,7 +53,10 @@ export default function LeaderData(){
           <p className="wa">Be the first one to join this contest &amp;</p>
           <p className="wal">start Winning</p>  
           <button className="pool-pay">Join contest</button>
-    </div>}
+    </div>
+    }
+
+      <Withdraw deposit={setCredit} />   
         </div>
     )
 }

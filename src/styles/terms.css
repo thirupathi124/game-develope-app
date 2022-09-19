@@ -26,8 +26,6 @@
 .payme:hover{
     text-decoration: underline;
 }
-.howplay{
-}
 .plystart{
     display: flex;
     gap:10px;
@@ -62,7 +60,6 @@
 }
 .setpimg{
     width: 200px;
-    box-shadow: 0px 0px 9px greenyellow;
 }
 .slec{
     padding: 10px;

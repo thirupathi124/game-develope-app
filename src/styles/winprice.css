@@ -32,6 +32,70 @@ th,td{
 .all-player{
     padding-right: 190px;
 }
+.withdarw{
+  border-radius: 3px;
+  font-size: 13px;
+  color: green;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.deposit {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-color:white;
+    z-index: 9999;
+    transform: translateY(-100%);
+    transition: 0.4s;
+  }
+  
+  .show-create-credit .deposit{
+    transform: translateY(0);
+  }
+  
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+  }
+  .show-create-credit .overlay {
+    display: block;
+  }
+  .withdrawform{
+    /* display: flex */
+    justify-content: center;
+    text-align: center;
+  }
+  .with-btn{
+    margin: 10px auto;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 7px 40px 7px 40px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+  }
+ .verify{
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+ }
+.rank-data{
+    padding: 4px;
+    margin: 9px 0px 9px 0px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+
+
 
 
 @media screen and (max-width:800px){
